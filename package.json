@@ -1,0 +1,30 @@
+{
+    "name": "sanote",
+    "version": "0.0.1",
+    "description": "list of sutras and word forms as a component for panini-plugin",
+    "main": "index.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/vyakarana/pAnini-popup.git"
+    },
+    "keywords": [
+        "sanskrit",
+        "devanagari",
+        "node.js",
+        "component.js",
+        "morphology",
+        "sanote"
+    ],
+    "author": "Michael Bykov",
+    "license": "GNU GPL",
+    "bugs": {
+        "url": "https://github.com/vyakarana/pAnini-popup/issues"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    }
+}

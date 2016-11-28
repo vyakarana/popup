@@ -1,0 +1,19 @@
+{
+  "name": "sanote",
+    "repo": "vyakarana/pAnini-popup",
+    "description": "list of sutras and word forms as a component for panini-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "sanskrit",
+        "devanagari",
+        "node.js",
+        "component.js",
+        "morphology"
+    ],
+    "license": "GPL",
+    "main": "index.js",
+    "scripts": [
+        "index.js"
+    ],
+    "remotes": []
+}
