@@ -142,11 +142,12 @@ function drawPaniniRules(data) {
     let rules = data.d;
     rules.forEach(function(r) {
         let oLi = cre('li');
-        let nagaris = r.i.map(function(iform) {
-            let parts = iform.split('+');
-            return parts.map(function(part) { return salita.slp2sa(part); }).join(' + ');
-        });
-        let iforms = nagaris.join(', ');
+        // let nagaris = r.i.map(function(iform) {
+        //     let parts = iform.split('+');
+        //     return parts.map(function(part) { return salita.slp2sa(part); }).join(' + ');
+        // });
+        // let iforms = nagaris.join(', ');
+        let iforms = r.i.join(', ');
 
         let oForm = cspan(iforms, 'sutra-form');
         oLi.appendChild(oForm);
